@@ -84,7 +84,7 @@
 - code  
 
 
-```
+```c
 	TermCriteria criteria = TermCriteria(TermCriteria::EPS + TermCriteria::COUNT, 10, 0.1);
 	kmeans(points, clusterCount, labels, criteria, 3, KMEANS_PP_CENTERS, centers);
 ```
@@ -112,7 +112,7 @@
 
 - code 
 
-```
+```c
 	//EM 训练
 	Ptr<EM>  em_model = EM::create();
 	em_model->setClustersNumber(clusterCount);
@@ -150,7 +150,7 @@
 
 - code 
 
-```
+```c
 pyrMeanShiftFiltering(src, shifted, 21, 51);
 
 ...
@@ -180,7 +180,7 @@ distanceTransform(binary, dist, DistanceTypes::DIST_L2, 3, CV_32F);
 
 - code
 
-```
+```c
 setMouseCallback；  
 onMouse(int event, int x, int y, int flags, void* 
 param)  
@@ -210,7 +210,7 @@ param)
 3.RGB与HSV色彩空间   
 
 
-```
+```c
 cvtColor(frame, hsv, COLOR_BGR2HSV);
 inRange(hsv, Scalar(35, 43, 46), Scalar(155, 255, 255), mask);//绿幕颜色范围值,绿色使用255白色替换
 //形态学操作
