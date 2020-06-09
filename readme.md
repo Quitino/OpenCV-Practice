@@ -11,14 +11,14 @@
 
 ##  0.OpenCV图像处理
 
-- [ OpenCV图像处理.](/OpenCV-DIP/readme.md)
+- [ OpenCV图像处理.](./OpenCV-DIP/readme.md)
 
 比较基础，没详细整理.
 
 
 ## 1. OpenCV小案例
 
-- [ OpenCV小案例.](/OpenCV-Demo/readme.md)
+- [ OpenCV小案例.](./OpenCV-Demo/readme.md)
 
 
 ###  1.1.切边
